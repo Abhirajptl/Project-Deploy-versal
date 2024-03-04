@@ -1,0 +1,486 @@
+*{
+  margin:0;
+  font-style:;
+}
+
+.mainBox{
+  display: flex;
+  justify-content: space-around;
+}
+
+.smallBox1 a{
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+
+.anchor a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin-right: 60px;
+}
+
+.anchor a img{
+  margin-right: 10px;
+
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: white;
+  position: fixed;
+  background-position-y :0%;
+  background-position-x :0%;
+  background-origin :padding-box;
+  background-attachment :scroll;
+}
+
+.border{
+  border: none;
+}
+
+.border a{
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+.size{
+  font-size: 20px;
+}
+
+.input{
+  background-color: rgb(228, 232, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.input Input{
+  width: 350px;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgb(228, 232, 237);
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.abc{
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+.bcd{
+  border: none;
+  outline: none;
+  background-color: rgb(228, 232, 237);
+  padding: 8px;
+}
+
+.bcd span{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cde{
+  margin-left: 175px;
+  margin-right: 200px;
+  margin-top: 40px;
+}
+
+.def{
+  position: relative;
+  left: -350px;
+  top: -350px;
+  font-size: 30px;
+}
+
+.def a{
+  text-decoration: none;
+  color: black;
+}
+.def a span{
+  font-weight: 900;
+}
+
+.efg{
+  position: relative;
+  left: -400px;
+  top: -330px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.eee{
+  background-color: rgb(242, 245, 247);
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.fff{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ggg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 15px;
+}
+.ggg a{
+ text-decoration: none;
+ color: rgb(112, 91, 91);
+}
+.ggg a:hover{
+  text-decoration: underline;
+}
+
+.qqq{
+  color: black;
+}
+
+.ttt{
+  margin-bottom: 50px;
+  margin-left: 30%;
+}
+.ttt a{
+  text-decoration: none;
+}
+.ttt :hover{
+  text-decoration: underline;
+}
+
+.yyy{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  background-color: rgb(241, 198, 204);
+  padding: 30px;
+  margin-top: -100px;
+}
+.yyy img{
+  width: 400px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.yyy a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 120px;
+}
+
+.yyy a :hover{
+  text-decoration: underline;
+}
+
+.jjj{
+  font-size: 15px;
+  color: black;
+  margin-left: 120px;
+}
+
+.ab{
+  margin: auto;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+.ab img{
+  width: 85%;
+}
+
+.nnn{
+  width: 74%;
+  margin: auto;
+}
+
+.nnn img{
+  width: 100%;
+}
+
+
+.App{
+  width: 80%;
+  margin: auto;
+  background-color: rgb(224, 190, 195);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.product--image {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+  padding: 10px;
+  background-color: beige;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #e81111;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.App > h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.rrr{
+  color: red;
+}
+
+.ooo{
+  text-decoration: none;
+  color: black;
+}
+.ooo :hover{
+  text-decoration: underline;
+}
+
+.jjj{
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.card{
+  max-height: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ccc{
+  width: 70%;
+  margin: auto;
+}
+
+.ccc img{
+  width: 100%;
+}
+
+.ddd{
+  color: black;
+  position: relative;
+  left: 24%;
+  top: -200px;
+}
+
+.www{
+  text-decoration: none;
+}
+.www :hover{
+  text-decoration: underline;
+}
+
+.iii{
+  margin-bottom: -110px;
+}
+
+.hii{
+  width: 70%;
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  background-color: rgb(198, 215, 221);
+  padding: 40px;
+}
+
+.hii img{
+  width: 400px;
+  height: auto;
+}
+
+.jii{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.nii a{
+  text-decoration: none;
+}
+.nii a :hover{
+  text-decoration: underline;
+}
+
+.nii p{
+  color: black;
+}
+.nii h1{
+  color: black;
+}
+
+.child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.child p{
+  position: relative;
+  margin-left: 30%;
+}
+
+
+
+.child a{
+  text-decoration: none;
+}
+.child a :hover{
+  text-decoration: underline;
+}
+
+.mainBox{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.tut{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tut h1{
+  font-size: 40px;
+}
+.tut a{
+  color: rgb(99, 70, 70);
+}
+
+.uui{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.uui img{
+  width: 100%;
+}
+
+.signUp{
+  display: flex;
+  gap: 30px;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.signUp button{
+  background-color: #e81111;
+  color: white;
+  padding: 10px;
+}
+.signUp input{
+  padding: 10px;
+}
+
+.b4u{
+  height: 60px;
+  background-color: #e81111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.b5u{
+  display: flex;
+  gap: 30px;
+  /* align-items: center; */
+}
+.b5u i{
+  color: white;
+}
+.b5u span{
+  margin-left: 15px;
+}
+.b6u{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  color: white;
+}
+.b6u a{
+  color: white;
+  text-decoration: none;
+}
+.b6u a :hover{
+  text-decoration: underline;
+}
+
+.Signbutton{
+  padding: 10px;
+  border: 1px dashed black;
+  border-radius: 5px;
+}
+
+.fa-solid{
+  font-size: 20px;
+}
+
+.xyz{
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+  background-color: #333333;
+}
+.xyza a{
+  margin-right: 20px;
+}
+.xyza i{
+  font-size: 24px;
+  color: white;
+}
+.xyzb a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+.xyzb a :hover{
+  border: 1px solid pink;
+  text-decoration: underline;
+}
+
+.xyzb span{
+  color: white;
+}
